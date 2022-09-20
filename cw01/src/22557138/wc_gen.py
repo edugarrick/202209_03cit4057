@@ -5,6 +5,8 @@ import matplotlib.pyplot as plt
 from wordcloud import WordCloud, STOPWORDS
 
 df = pd.read_csv("handbook.txt",sep=" ",on_bad_lines="skip")
+# if i did not skip the bad lines
+# there will alway show errors on other delimiters and symbols 
 text = " ".join( str(cat) for cat in df.Review)
 word_cloud = WordCloud(
     width=3000,
