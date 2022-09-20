@@ -13,7 +13,7 @@ def squaresum (n):
 def main( ) :
     integerN =4
     # Try line wrap within parentheses
-    print ( "The sum of square of integer N is ",
+    print ( 'The sum of square of integer N is ',
     squaresum ( integerN) )
 if __name__=="__main__":
     main ( )
