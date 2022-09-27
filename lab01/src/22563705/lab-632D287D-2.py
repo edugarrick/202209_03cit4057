@@ -4,9 +4,9 @@ from pickletools import string1
 def getString() :
     ret = ""
     # START: Write your code here
-    atr1 = "Holly"
-    atr2 = "Dolly"
-    ret = atr1+atr2
+    str1 = "Holly"
+    str2 = "Dolly"
+    ret = str1+str2
 
     # END: Write you code here
     return ret

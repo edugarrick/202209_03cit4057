@@ -1,7 +1,13 @@
 def getDiscount( day, amount ) :
     amountAfterDiscount = 0
     # START: Write your code here
-
+    if day is "Monday":
+        amountAfterDiscount = (amount/100) * 0.9
+    else:
+        if day is  "Tueaday":
+            amountAfterDiscount = (amount/100) * 0.95
+        else:
+            amountAfterDiscount = (amount / 100) * 0.99
     # END: Write you code here
     return amountAfterDiscount
 
