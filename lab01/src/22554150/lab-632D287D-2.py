@@ -17,7 +17,8 @@ def getString() :
     str1 = "Holly"
     str2 = "Dolly"
 
-    print(str1+" "+str2)
+    getString = (str1+" "+str2)
+
     return ret
 
 def main():
