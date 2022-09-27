@@ -6,4 +6,4 @@ src/students.csv
 
 with your student id and GitHub id.
 
-Updated: 2022-09-01
+[Class activity 01](https://drive.google.com/file/d/1fUEZGI6mSK6_pwxfVkg4XxD3fdUCbpLw/view?usp=sharing)
