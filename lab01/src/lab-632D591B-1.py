@@ -1,7 +1,8 @@
 def check( userinput ) :
     ret = False
     # START: Write your code here
-    
+    if int(userinput) + 1 and int(userinput) + 10 :
+       ret = True
     # END: Write you code here
     return ret
 
