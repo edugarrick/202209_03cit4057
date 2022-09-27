@@ -1,11 +1,26 @@
+Updated on 2022-09-22
+
 The following is my Discord invitation.   Please install Discord, create your account and then click the following link.
 
 ```
 https://discord.gg/4XVnZUUX
 ```
 
-## Teaching Material
 
-[00 - Teaching plan](https://hkct365-my.sharepoint.com/:b:/r/personal/garrickho_hkct_edu_hk/Documents/For%20Students/2022-23_03CIT4057/plan/TeachingPlan.pdf?csf=1&web=1&e=Gf4F2H)
 
-[01- Lecture 01 PowerPoint](https://hkct365-my.sharepoint.com/:b:/r/personal/garrickho_hkct_edu_hk/Documents/For%20Students/2022-23_03CIT4057/lecture/01.00-Introduction.pdf?csf=1&web=1&e=tGnfde)
+### Teaching Plan
+
+[00 - Teaching plan](https://drive.google.com/file/d/1bq2cXKbu7wsHsC0r4OQPqJQoOEoNLRQy/view?usp=sharing)
+
+[01 - Cheatsheet](https://ctihe-my.sharepoint.com/:b:/g/personal/garrickho_tutor_hkct_edu_hk/EcBa1PlvHdRJomftVNPElzMBAf3dKBTNx9fbGeyyugdSvw?e=b9WZ5B)
+
+### Lecture
+
+[01 - Lecture 01 PowerPoint](https://drive.google.com/file/d/1Gjsh-iNIw60TpucfYENnqOkeXxQWSBAg/view?usp=sharing)
+
+[01 - Lecture 01 Video](https://ctihe-my.sharepoint.com/:v:/g/personal/garrickho_tutor_hkct_edu_hk/EWdq9sqmZAFOgc-cG4oWrN8BzbTWCJLicXNTcGaALpLLrA?e=fqzu3D)
+
+[02 - Lecture 02 PowerPoint](https://drive.google.com/file/d/1UPpAxdxJXISfXQ3ryta7aC9H8cXUS0aZ/view?usp=sharing)
+
+[02 - Lecture 02 Video](https://ctihe-my.sharepoint.com/:v:/g/personal/garrickho_tutor_hkct_edu_hk/EduAyDlYUI1HlOxpXnBChDwB1yjqCTzfZhtAdjIlgOUPUQ?e=NChNVc)
+
