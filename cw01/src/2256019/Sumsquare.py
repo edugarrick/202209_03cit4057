@@ -1,4 +1,4 @@
-# 1. Try comment
+# 1. Try commen
 '''
 This program calculates the sum of 
 square of first N natural 
@@ -10,7 +10,7 @@ def squaresum(n):
    for i in range(1, n+1) :
        sum = sum + (i * i)
    return sum
-   
+
 def main():
         integerN = 4
         # Try line wrap within parentheses
