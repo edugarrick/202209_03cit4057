@@ -1,7 +1,9 @@
 def getString() :
     fullName = ""
     # START: Write your code here
-    
+    firstName = "Garrick,"
+    lastName ="Ho "
+    fullName = firstName + lastName
     # END: Write you code here
     return fullName
 

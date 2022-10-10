@@ -2,7 +2,9 @@ def getString(firstName, lastName) :
     fullName = ""
     # START: Write your code here
     # Please use .format()
-
+    firstName = ""
+    lastName = ""
+    fullName = "{0},{1}".format("Garrick","Ho")
     # END: Write you code here
     return fullName
 
