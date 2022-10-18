@@ -1,6 +1,7 @@
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
+    range(startNumber, endNumber +2)
     # END: You code here
     return ret
 

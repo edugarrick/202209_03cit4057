@@ -1,5 +1,19 @@
 def answer(weekd, value):
     ret = 0
+    
+    if weekd.lower() == "saturday":
+        value = value * 0.95
+    elif weekd.lower() == "sunday":
+        value = value * 0.9
+    else:
+        value = value
+
+       
+
+    
+
+
+
     # END: You code here
     return ret
 
