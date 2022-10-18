@@ -1,7 +1,12 @@
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
-    range(startNumber, endNumber +2)
+
+   # if startNumber%2 == 1:
+   #     startNumber = startNumber +1
+
+    ret = range(startNumber+startNumber%2, endNumber +1 ,2)
+
     # END: You code here
     return ret
 
