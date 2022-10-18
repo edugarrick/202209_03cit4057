@@ -1,6 +1,7 @@
 def splitString(inputString): 
-    # START: Write your code here
-    return ## <Write your code here> 
+    # START: Write your code here+
+    splitString = inputString.split()
+    return splitString 
     # END: Write you code here
  
 def main(): 
