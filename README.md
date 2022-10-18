@@ -28,3 +28,9 @@ https://discord.gg/W4NgFSS2
 [03 - Lecture 03 PowerPoint](https://ctihe-my.sharepoint.com/:b:/g/personal/garrickho_tutor_hkct_edu_hk/ETcqPOB4MzNAnRNHL6xajo0BE-S_OH0CzYIN2tXUE71WvQ)
 
 [03 - Lecture 03 Video](https://ctihe-my.sharepoint.com/:v:/g/personal/garrickho_tutor_hkct_edu_hk/ESMgYec3_JhAkVJp9GhdZE0BYM5kQ78_2khF9Zc4ImOBrA?e=QWWCnK)
+
+[04 - Lecture 04 PowerPoint]( https://ctihe-my.sharepoint.com/:b:/g/personal/garrickho_tutor_hkct_edu_hk/EWZGVT9Ja5RHo9omcZrUtvMBpi_tg-phaq6Lv0bSIRb0FQ?e=0837AR )
+
+### Project:
+
+[Project v1.00](https://ctihe-my.sharepoint.com/:b:/g/personal/garrickho_tutor_hkct_edu_hk/EckkUwIHVV9MotJ6ByRDby8B_yEy3PgP4HNdOUUQ2wl9qA)
