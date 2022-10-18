@@ -1,6 +1,11 @@
+from collections import UserList
+from ctypes.wintypes import WORD
+from email import message
+
+
 def splitString(inputString): 
     # START: Write your code here
-    return ## <Write your code here> 
+    return inputString.split(" ")   ## <Write your code here> 
     # END: Write you code here
  
 def main(): 

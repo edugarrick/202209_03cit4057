@@ -2,7 +2,8 @@ def getString(firstName, lastName) :
     fullName = ""
     # START: Write your code here
     # Please use .join()
-    
+    fullName = firstName + lastName
+    "".join(fullName)
     # END: Write you code here
     return fullName
 
