@@ -1,12 +1,12 @@
 def answer(num1, num2):
     ret = ""
     # START: You code here  
-    if num1 == 10 and num2 == 10 :
-        print("both strings equal 10")
-    elif num1 == 10 and num2 == 15 or num1 == 15 and num2 == 10 :
-        print("One is 10 and other is 15")
+    if (num1 == 10 and num2 == 10 ):
+        ret = "both strings equal 10"
+    elif (num1 == 10 and num2 == 15) or (num1 == 15 and num2 == 10 ):
+        ret = "One is 10 and other is 15"
     else :
-        print("The numbers are not 10 nor 15")
+        ret = "The numbers are not 10 nor 15"
     # END: You code here
     return ret
 
