@@ -1,17 +1,21 @@
 def answer(maxNumber):
     # START: You code here
-    i = 0
-    j = 0
     for i in range(maxNumber):
-        for j in range(i+1):
-            print("* ",end="")
+        for j in range(i):
+            print("* ", end="")
         print()
-    i = 0
-    j = 0
-    for i in range(maxNumber,1,-1):
-        for j in range(i-1):
-            print("* ",end="")
+    for i in range(maxNumber, 0, -1):
+        for j in range(i):
+            print("* ", end="")
         print()
+    # for i in range(maxNumber):
+    #     for j in range(i):
+    #         print("* ",end="")
+    #     print()
+    # for i in range(maxNumber):
+    #     for j in range(maxNumber-i):
+    #         print("* ",end="")
+    #     print()
     # END: You code here
 
 # Please don't change the code below!!!

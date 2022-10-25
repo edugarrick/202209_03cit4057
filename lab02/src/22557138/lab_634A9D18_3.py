@@ -1,10 +1,11 @@
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
-    if startNumber % 2 == 0:
-        ret = range(startNumber,endNumber + 1,2)
-    else:
-        ret = range(startNumber + 1, endNumber + 1,2)
+    # if startNumber % 2 == 0:
+    #     ret = range(startNumber,endNumber + 1,2)
+    # else:
+    #     ret = range(startNumber + 1, endNumber + 1,2)
+    ret = range(startNumber + startNumber % 2, endNumber + 1, 2)
     # END: You code here
     return ret
 
