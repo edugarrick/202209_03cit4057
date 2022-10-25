@@ -1,6 +1,9 @@
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
+    for j in range(startNumber, endNumber):
+        if j % 2 == 0 :
+            ret.append(j)
     # END: You code here
     return ret
 

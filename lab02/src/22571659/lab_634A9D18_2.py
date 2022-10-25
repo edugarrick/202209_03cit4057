@@ -1,6 +1,15 @@
 def answer( ):
     mean = 0
-    # START: You code here
+    count = 0
+    y = 0
+    # START: You code here   
+    x = int(input("Enter a number:")) 
+    while ( x != 0 ):
+        x = int(input("Enter a number:")) 
+        y += x
+        count += 1
+    if count > 0:
+        mean = y / count
     # END: You code here
     return mean
 
