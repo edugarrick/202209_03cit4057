@@ -1,6 +1,10 @@
 def answer(value):
     ret = ""
     # START: You code here
+    if (value ==10):
+        print('hello')
+    else:
+        print('The number is not 10')
     # END: You code here
     return ret
 

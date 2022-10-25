@@ -1,7 +1,21 @@
 import random
+from re import I
 
 def answer( numguessing ):
-    # START: You code here  
+    # START: You code here 
+    h = int(input('Enter a number between 1 to 100:'))
+    while (numguessing!=h):
+        if h>numguessing:
+            print('Too high')
+        elif h<numguessing:
+            print('Too low')
+        else:
+             print('You won')
+        h = int(input('Enter a number between 1 to 100:'))
+    print('You won')
+
+
+
     # END: You code here
 
 # Please don't change the code below!!!
