@@ -1,20 +1,22 @@
-def answer(nm1, nm2 ):
-    net = ""
+def answer( ):
+    mean = 0
+    numberInput = 1
+    total = 0
+    count = 0
     # START: You code here
-    if ( nm1 == 10 and nm2 == 10):
-        net = "both string equal 10"
-    elif ( nm1 == 10 and nm2 == 15 ) or ( num1 == 15 and num2 == 10):
-        net = "One is 10 and other is 15"
-    else:
-        net = "the unmber are 10 nor 15"
+    while ( numberInput!=0):
+        numberInput =int(input("Enter a number:"))
+        if ( numberInput !=0) :
+             total = total + numberInput
+             count = count + 1
+    if count > 0:
+        mean = total / count
     # END: You code here
-    return net
+    return mean
 
 # Please don't change the code below!!!
 def main():
-    firstNum = float(input("Enter a number:"))
-    secondNum = float(input("Enter another number:")) 
-    print( answer(firstNum,secondNum)) 
+    print( "The mean is {}".format( answer() ) )
 
 if __name__ == "__main__":
     main()
