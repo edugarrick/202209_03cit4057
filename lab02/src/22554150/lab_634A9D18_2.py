@@ -3,22 +3,22 @@ def answer( ):
     # START: You code here
     trynum = 0
     sum = 0
+    userinput = 1
     
-    while True:
+    while userinput !=0 :
         userinput = int(input("Enter a number: "))
         if userinput != 0 :
             trynum =  trynum + 1
             sum = sum + userinput
             continue
-        else :
-            mean = sum / trynum
-            break
+    if trynum >0 :
+        mean = sum / trynum
 
     # END: You code here
     return mean
 
 # Please don't change the code below!!!
-def main():
+def main(): 
     print( "The mean is {}".format( answer() ) )
 
 if __name__ == "__main__":
