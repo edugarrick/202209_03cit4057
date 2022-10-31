@@ -1,6 +1,13 @@
+from multiprocessing.sharedctypes import Value
+
+
 def answer( numInput ) :
     is_prime = True
     # START: You code here
+    for number in range(2,numInput):
+        if numInput%number==0:
+            is_prime=False   
+
     # END: You code here
     return is_prime
 
