@@ -5,10 +5,11 @@ def answer( numguessing ):
     value = 0
     while value != numguessing:
         value = int(input("Enter a number between 1 to 100: "))
-        if value < numguessing:
-            print("Too low")
-        elif value > numguessing:
-            print("Too high")
+        if 0 < value < 101:
+            if value < numguessing:
+               print("Too low")
+            elif value > numguessing:
+               print("Too high")
     print("You won")
     # END: You code here
 

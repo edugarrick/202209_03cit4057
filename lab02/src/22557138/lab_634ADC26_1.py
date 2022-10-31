@@ -7,13 +7,13 @@ def answer( numInput ) :
     if numInput < 2:
         is_prime = False
     else:
-        i = 2
+        # i = 2
         for i in range(2,int(numInput**0.5)+1):
             if (numInput % i) == 0:
                 is_prime = False
                 break
-            else:
-                is_prime = True
+            # else:
+            #     is_prime = True
     # END: You code here
     return is_prime
 
