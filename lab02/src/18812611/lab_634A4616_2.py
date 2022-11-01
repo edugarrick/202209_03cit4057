@@ -1,15 +1,14 @@
-def answer():
+def answer(num1, num2):
     ret = ""
     # START: You code here  
-    print ("Hello")
-    print ("Mary")
-    print("hello\tmary")
     # END: You code here
     return ret
 
 # Please don't change the code below!!!
 def main():
-    print( answer() )
+    firstNum = float(input("Enter a number: ")) 
+    secondNum = float(input("Enter another number: ")) 
+    print( answer(firstNum,secondNum) )
 
 if __name__ == "__main__":
     main()

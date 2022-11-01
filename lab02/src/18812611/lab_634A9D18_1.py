@@ -1,15 +1,14 @@
-def answer():
-    ret = ""
+import random
+
+def answer( numguessing ):
     # START: You code here  
-    print ("Hello")
-    print ("Mary")
-    print("hello\tmary")
     # END: You code here
-    return ret
 
 # Please don't change the code below!!!
 def main():
-    print( answer() )
+    # Generate a random number
+    random_num = random.randint(1,100) 
+    answer(random_num)
 
 if __name__ == "__main__":
     main()
