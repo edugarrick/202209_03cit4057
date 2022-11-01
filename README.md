@@ -33,6 +33,8 @@ https://discord.gg/W4NgFSS2
 
 [05 - Lecture 05 PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/05.00-ControlFlow.pdf?csf=1&web=1&e=jRxluG)
 
+[06 - Lecture 06 PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/06.00-Collection.pdf?csf=1&web=1&e=NFym8E)
+
 ### Project:
 
 [Project v1.00](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/project/project_01_00.pdf?csf=1&web=1&e=it715v)
