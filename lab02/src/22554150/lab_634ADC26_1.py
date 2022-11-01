@@ -1,6 +1,6 @@
 def answer( numInput ) :
     is_prime = True
-    temp=int(pow(numInput,0.5)+1)
+    temp=int((numInput**0.5)+1)
     # START: You code here
     for x in range( 2,temp):
         if numInput%x == 0 :

@@ -8,8 +8,8 @@ def answer( ):
     while userinput !=0 :
         userinput = int(input("Enter a number: "))
         if userinput != 0 :
-            trynum =  trynum + 1
-            sum = sum + userinput
+            trynum += 1
+            sum += userinput
             continue
     if trynum >0 :
         mean = sum / trynum
