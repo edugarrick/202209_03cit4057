@@ -3,7 +3,7 @@ STACK = "Hello world"
 def answer(needle):
     found = False
     # START: You code here 
-    if needle.lower() == STACK.lower() :
+    if needle.lower() in STACK.lower() :
         found = True
     # END: You code here
     return found
