@@ -8,6 +8,7 @@ def answer():
     while(i<=16):
         ret+= str(i)+"\n"
         i+=1
+    i=6
     while(i<=16):
         ret+= str(i)+"\n"
         i+=2
