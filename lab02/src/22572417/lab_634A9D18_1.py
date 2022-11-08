@@ -1,8 +1,10 @@
+import numbers
 import random
+from winreg import HKEY_LOCAL_MACHINE
 
 def answer( numguessing ):
-    # START: You code here  
-    # END: You code here
+    answer(HKEY_LOCAL_MACHINE)
+    The numbers is not 10
 
 # Please don't change the code below!!!
 def main():
