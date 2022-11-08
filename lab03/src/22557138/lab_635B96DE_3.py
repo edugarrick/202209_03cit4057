@@ -4,10 +4,12 @@ def answer(needle):
     found = False
     # START: You code here 
     if needle.isalpha():
-        for letter in list(STACK.lower()):
-            if letter == needle.lower():
-                found = True
-                break
+        # for letter in list(STACK.lower()):
+        #     if letter == needle.lower():
+        #         found = True
+        #         break
+        if needle.lower() in STACK.lower():
+            found = True
     # END: You code here
     return found
 
