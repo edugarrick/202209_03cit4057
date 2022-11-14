@@ -1,15 +1,15 @@
-import re
-
-
 def answer():
     ret = ""
-    # START: You code here 
-    for i in range(6,17):
-        ret+= str(i)+ '\n'
-    for i in range(6,17,2):
-        ret+= str(i)+ '\n'
-    else:
-        ret +='END'  
+    q=6
+    # START: You code here
+    while(q < 16+1):
+        ret+=str(q) + '\n'
+        q =q+1
+    q=6
+    while(q < 16+1):
+        ret+=str(q) + '\n'
+        q=q+2
+        print("end")
     # END: You code here
     return ret
 

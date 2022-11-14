@@ -1,15 +1,9 @@
-import re
-
-
 def answer():
     ret = ""
-    # START: You code here 
-    for i in range(6,17):
-        ret+= str(i)+ '\n'
-    for i in range(6,17,2):
-        ret+= str(i)+ '\n'
-    else:
-        ret +='END'  
+    # START: You code here
+    ret =("Hello\n")
+    ret +=("Mary\n")
+    ret +=("Hello\t Mary")
     # END: You code here
     return ret
 
