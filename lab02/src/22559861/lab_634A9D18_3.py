@@ -1,12 +1,13 @@
+from pickle import APPEND
+from re import I, S
+
+
 def answer(startNumber, endNumber ):
     ret = []
     # START: You code here
-
-   # if startNumber%2 == 1:
-   #     startNumber = startNumber +1
-
-    ret = range(startNumber + startNumber % 2, endNumber +1 ,2)
-
+    for num in range (startNumber,endNumber):
+        if num %2 == 0:
+            ret.append(num)
     # END: You code here
     return ret
 
@@ -21,5 +22,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 # Please don't change the code above!!!
