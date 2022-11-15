@@ -8,7 +8,7 @@ def cal_area( height, base ):
 def main():
     h_value = input("Please input the triangle height: ")
     b_value = input("Please input the triangle base: ")
-    print( "The triangle area is {}".format( cal_area(h_value, b_value) ) )
+    print( "The triangle area is {}".format(cal_area(h_value, b_value)) )
 
 if __name__ == "__main__":
     main()
