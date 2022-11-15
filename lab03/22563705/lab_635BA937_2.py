@@ -1,6 +1,8 @@
 def answer(input_number_str):
     ret = 0
     # BEGIN: You code here
+    if input_number_str.isnumeric():
+        ret=int(input_number_str)+ 5
     # END: You code here
     return ret
 
