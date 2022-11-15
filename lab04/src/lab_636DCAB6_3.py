@@ -1,6 +1,7 @@
 def cal_area( height, base ):
     area = 0
 # BEGIN : Write your function here
+    area = height * base / 2
 # END : Write your function here
     return area
 

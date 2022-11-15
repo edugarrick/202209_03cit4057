@@ -22,6 +22,6 @@ def main():
     total2_compare = get_total_weird(list, total)
     print("total1 = {}, total1_compare = {}".format(total1, total1_compare))
     print("total2 = {}, total2_compare = {}".format(total2, total2_compare))
-
+#.
 if __name__ == "__main__":
     main()

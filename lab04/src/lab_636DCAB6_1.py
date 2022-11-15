@@ -8,18 +8,22 @@ def get_total(num_apple, num_orange):
 def callupdate_bykeyword():
     ret = get_total(num_apple = 10, num_orange= 6 )
     return ret
+#num_apple = 10, num_orange = 6
 
 def callupdate_bykeyword2():
     ret = get_total(num_orange= 6, num_apple = 10 )
     return ret
+#num_apple = 10, num_orange = 6
 
 def callupdate_byposition():
     ret = get_total(10,6)
     return ret
+#num_apple = 10, num_orange = 6
 
 def callupdate_byposition2():
     ret = get_total(6,10)
     return ret
+#num_apple = 6, num_orange = 10
 
 # Please don't change the code below!!!
 def main():

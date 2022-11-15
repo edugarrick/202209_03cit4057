@@ -2,7 +2,8 @@ STACK = "This is a test input"
 
 def answer( str_val ):
     ret = ""
-    # START: You code here 
+    # START: You code here
+    ret = str_val[-6:-1:] + str_val[-1]
     # END: You code here
     return ret
 
