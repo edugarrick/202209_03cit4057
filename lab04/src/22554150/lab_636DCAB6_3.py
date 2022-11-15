@@ -1,7 +1,7 @@
 def cal_area( height, base ):
     area = 0
 # BEGIN : Write your function here
-    area = (float(height) * float(base) /2)
+    area = (int(height) * int(base) /2)
 # END : Write your function here
     return area
 
