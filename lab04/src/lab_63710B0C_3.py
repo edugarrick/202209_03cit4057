@@ -1,13 +1,15 @@
-def answer():
+STACK = "This is a test input"
+
+def answer( str_val ):
     ret = ""
     # START: You code here 
-    ret='\x50\x79\x74\x68\x6F\x6E' 
     # END: You code here
     return ret
 
 # Please don't change the code below!!!
 def main():
-    print( answer() )
+    userInput = input("Enter a string: ")
+    print( answer(userInput) )
 
 if __name__ == "__main__":
     main()

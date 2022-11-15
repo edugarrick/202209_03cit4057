@@ -1,6 +1,18 @@
+from tkinter import END
+
+
 def answer():
     ret = ""
     # START: You code here
+    i=6
+    while(i<=16):
+        ret+= str(i)+"\n"
+        i+=1
+    i=6
+    while(i<=16):
+        ret+= str(i)+"\n"
+        i+=2
+    print('END')
     # END: You code here
     return ret
 
