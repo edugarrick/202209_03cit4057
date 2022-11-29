@@ -40,3 +40,4 @@ https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Docum
 
 [08 - Lecture 10 Function and Modules (2) PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/10.00-Modules.pdf?csf=1&web=1&e=XivAy9)
 
+[09 - Lecture 11 File I/O PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/11.00-File.pdf?csf=1&web=1&e=wqiSbw)
