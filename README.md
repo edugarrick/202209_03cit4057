@@ -4,7 +4,7 @@ We have a dedicate Discord Server for this course.
 Please install Discord, create your account and then click the following link.
 
 ```
-https://discord.gg/eDXN8gbS
+https://discord.gg/fmYC8Zhf
 ```
 
 ### Teaching Plan
