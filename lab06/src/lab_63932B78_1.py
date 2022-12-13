@@ -1,20 +1,10 @@
-import os, sys, stat
-os.chmod("test01.txt",stat.S_IWOTH)
 def toFileFromLine( aline ):
-    with open("test01.txt", "w") as f:
-        f.write(aline)
 
 
-os.chmod("test02.txt",stat.S_IWOTH)
 def toFileFromEssay( liststrings ):
-    with open("test02.txt", "w") as f:
-        f.writelines(liststrings)
 
-os.chmod("test03.txt",stat.S_IWOTH)
+
 def errorFunctiontoFileFromEssay( liststrings ):
-    with open("test03.txt", "r") as f:
-        f.writelines(liststrings)
-
 
 
 def main():
