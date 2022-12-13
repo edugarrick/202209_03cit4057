@@ -1,14 +1,21 @@
 class ClassManual: 
 
     def __init__(self,name,leg_count): 
+        self._name = name
+        self._leg_count = leg_count
 
     def eat(self): 
+        print("{0} is now eating".format(self._name))
         
     def walk(self): 
+        print("{0} is now walking".format(self._name))
 
     def show_genome(self):
+        self.__dna = "ACGT"
+        print("{} DNA: {}".format(self._name, self.__dna))
 
     def __cellsplit(self):
+        return self
 
 def main():
     obj_cat=ClassManual("Cat",4)
