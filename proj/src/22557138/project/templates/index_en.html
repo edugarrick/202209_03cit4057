@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Caesar cipher</title>
+  <style>
+    body{margin: 50px;}
+  </style>
+</head>
+<body>
+    <h1>Caesar cipher</h1>
+    <hr>
+    <form method="POST" enctype="multipart/form-data">
+    <label>Function:</label>
+      <div>
+        <input type="radio" name="func" value="decrypt" {{fdecode}}>
+        <label>Decryption</label>
+      </div>
+      <div>
+        <input type="radio" name="func" value="encrypt" {{fencode}}>
+        <label>Encryption</label>
+      </div>
+      <div>
+        <p><label>Input:</label></p>
+        <p><textarea cols="80" rows="15" name="tarea" placeholder="Enter content here..."></textarea></p>
+        Shift: <input type="number" name="steps"/>
+        <input type="submit" value="Submit"  name="submit" formaction="/index"/>
+        <input type="reset" value="Reset"  name="reset"/>
+      </div>
+      <div>
+        <input type="file" name="file"  />
+        <input type="submit" value="Upload"  name="upload" formaction="/uploader"/>
+      </div>
+    </form>
+    <hr>
+    <div>
+      <p><label>Result:</label></p>
+      <p><textarea cols="80" rows="15" readonly>{{data}}</textarea></p>
+    </div>
+</body>
+</html>

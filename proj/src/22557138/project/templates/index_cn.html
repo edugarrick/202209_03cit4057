@@ -1,0 +1,40 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>凯撒密码加密解密</title>
+  <style>
+    body{margin: 50px;}
+  </style>
+</head>
+<body>
+    <h1>凯撒密码加密解密</h1>
+    <hr>
+    <form method="POST" enctype="multipart/form-data">
+    <label>功能:</label>
+      <div>
+        <input type="radio" name="func" value="decrypt" {{fdecode}}>
+        <label>解码</label>
+      </div>
+      <div>
+        <input type="radio" name="func" value="encrypt" {{fencode}}>
+        <label>加密</label>
+      </div>
+      <div>
+        <p><label>输入:</label></p>
+        <p><textarea cols="80" rows="15" name="tarea" placeholder="在这里输入内容..."></textarea></p>
+        偏移值: <input type="number" name="steps"/>
+        <input type="submit" value="确定"  name="submit" formaction="/index"/>
+        <input type="reset" value="重置"  name="reset"/>
+      </div>
+      <div>
+        <input type="file" name="file"  />
+        <input type="submit" value="提交"  name="upload" formaction="/uploader"/>
+      </div>
+    </form>
+    <hr>
+    <div>
+      <p><label>结果:</label></p>
+      <p><textarea cols="80" rows="15" readonly>{{data}}</textarea></p>
+    </div>
+</body>
+</html>
