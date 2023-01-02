@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Caesar Cipher Cracker Request",
+  "type": "object",
+  "properties": 
+  {
+    "scret_msg": 
+    {
+      "type": "string",
+      "description": "Message encrypted by Caesar Cipher"
+    }
+  },
+  "required": ["scret_msg"]
+}
