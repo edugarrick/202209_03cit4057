@@ -19,10 +19,6 @@ def Analysis(p, CountDict):
             sum += p[j]*q[t]
         tem = abs(sum - 0.0655)
         # pre-calculated as a standard value 0.0655
-        # 
-        # although this is not accurate in math
-        # but it require less resources than calculate variance
-        # can refer to find_most_possible to check
         if (tem < eps):
             eps = tem
             key = i
@@ -31,14 +27,6 @@ def Analysis(p, CountDict):
 
 
 def key_guess(str_raw):
-    # p = [0.082,0.015,0.028,0.042,0.127,
-    #     0.022,0.020,0.061,0.070,0.001,
-    #     0.008,0.040,0.024,0.067,0.075,
-    #     0.019,0.001,0.060,0.063,0.090,
-    #     0.028,0.010,0.024,0.020,0.001,
-    #     0.001]
-    # a little low accuracy than follow, but also works fine
-    # its defalult value is 0.065379
     ap = [0.08167, 0.01492, 0.02782, 0.04253, 0.12702,
           0.02228, 0.02015, 0.06094, 0.06966, 0.00153,
           0.00772, 0.04025, 0.02406, 0.06749, 0.07507,
