@@ -1,4 +1,9 @@
+![](https://github.com/edugarrick/202209_03cit4057/blob/main/github_banner.gif)
+
+# 03CIT4057 Introduction of Computer Programming
+
 ### Communication
+
 
 We have a dedicate Discord Server for this course.
 Please install Discord, create your account and then click the following link.
@@ -44,3 +49,8 @@ https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Docum
 
 [10 - Lecture 12, 13 Object-oriented Programming PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/12.00-OO.pdf?csf=1&web=1&e=ljU4us)
 
+[11 - Lecture 14 Demonstration Of Python Libraries PowerPoint](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/14.00-DemonstrationOfPythonLibraries.pdf?csf=1&web=1&e=ia7xP2)
+
+[12 - Announcement-2022-12-19](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/14.00-Announcement-2022-12-19.pdf?csf=1&web=1&e=c46MLo)
+
+[13 - Lecture 15 Project Presentation](https://ctihe-my.sharepoint.com/:b:/r/personal/garrickho_tutor_hkct_edu_hk/Documents/202209_03cit4057/lecture/15.00-Project%20Presentation.pdf?csf=1&web=1&e=3XBiDk)
